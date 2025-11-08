@@ -2064,14 +2064,14 @@ local Button = URBANTab:CreateButton({
 })
 
 local Button = URBANTab:CreateButton({
-   Name = "Deagle",
+   Name = "Suppresed Pistol",
    Callback = function()
 local args = {
-    [1] = "Deagle",
+    [1] = "Suppresed Pistol",
     [2] = -0
 }
 
-game:GetService("ReplicatedStorage").GunStoreFolder.BuyTool:FireServer("Deagle", -0)
+game:GetService("ReplicatedStorage").GunStoreFolder.BuyTool:FireServer("Suppresed Pistol", -0)
    end,
 })
 
