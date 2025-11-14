@@ -2050,32 +2050,6 @@ end
 })
 
 local Button = URBANTab:CreateButton({
-   Name = "BOXJOB AUTOFARM",
-   Callback = function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/ottokizaki/main-turok/refs/heads/main/URBAN%20AUTO%20FARM%20BOXJOB'),true))()
-   end,
-})
-
-local Button = URBANTab:CreateButton({
-   Name = "AUTO COMSERVE",
-   Callback = function()
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/ottokizaki/main-turok/refs/heads/main/AUTO%20CS'),true))()
-   end,
-})
-
-local Button = URBANTab:CreateButton({
-   Name = "Suppressed Pistols",
-   Callback = function()
-local args = {
-    [1] = "Suppressed Pistols",
-    [2] = -0
-}
-
-game:GetService("ReplicatedStorage").GunStoreFolder.BuyTool:FireServer("Suppressed Pistols", -0)
-   end,
-})
-
-local Button = URBANTab:CreateButton({
    Name = "FULL ARMOR",
    Callback = function()
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
